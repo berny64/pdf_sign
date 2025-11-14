@@ -4,4 +4,12 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "dotenv>=0.9.9",
+    "openai>=2.8.0",
+    "pdfminer>=20191125",
+    "pyhanko>=0.31.0",
+    "pymupdf>=1.26.6",
+    "pypdf>=6.2.0",
+    "tesseract>=0.1.3",
+]
